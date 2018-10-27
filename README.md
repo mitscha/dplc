@@ -12,7 +12,7 @@ PyTorch implementation of **Deep Generative Models for Distribution-Preserving L
 ## Prerequisites
 
 - Python 3 (tested with Python 3.6.4)
-- PyTorch (version 0.4.1)
+- PyTorch (tested with version 0.4.1)
 - [tensorboardX](https://github.com/lanpa/tensorboardX)
 
 ## Training
