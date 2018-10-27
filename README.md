@@ -1,12 +1,12 @@
 # Deep Generative Models for Distribution-Preserving Lossy Compression
 
 <p align='center'>
-  <img src='figs/visuals.jpeg' width='440'/>
+  <img src='figs/visuals.jpeg' width='800'/>
 </p>
 
 ### [[Paper]](https://arxiv.org/abs/1805.11057) [[Citation]](#citation)
 
-PyTorch implementation of **Deep Generative Models for Distribution-Preserving Lossy Compression** (NIPS 2018) a framework that unifies generative models and lossy compression. The resulting models behave like generative models at zero bitrate, almost perfectly reconstruct the training data at high enough bitrate, and smoothly interpolate between generation and reconstruction at intermediate bitrates (cf. the figure above, the numbers indicate the rate in bits per pixel).
+PyTorch implementation of **Deep Generative Models for Distribution-Preserving Lossy Compression** (NIPS 2018), a framework that unifies generative models and lossy compression. The resulting models behave like generative models at zero bitrate, almost perfectly reconstruct the training data at high enough bitrate, and smoothly interpolate between generation and reconstruction at intermediate bitrates (cf. the figure above, the numbers indicate the rate in bits per pixel).
 
 
 ## Prerequisites
@@ -24,7 +24,7 @@ The training procedure consists of two steps
 
 The `train.py` script allows to do both of these steps.
 
-To learn the generative model we consider [[Wasserstein GAN with gradient penalty (WGAN-GP)](https://arxiv.org/abs/1704.00028), [Wasserstein Autoencoder (WAE)](https://arxiv.org/abs/1711.01558), and a combination of the two termed Wasserstein++. The following examples show how to train these models as in the experiments in the paper using the [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) data set (see `train.py` for a description of the flags).
+To learn the generative model we consider [Wasserstein GAN with gradient penalty (WGAN-GP)](https://arxiv.org/abs/1704.00028), [Wasserstein Autoencoder (WAE)](https://arxiv.org/abs/1711.01558), and a combination of the two termed Wasserstein++. The following examples show how to train these models as in the experiments in the paper using the [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) data set (see `train.py` for a description of the flags).
 
 WGAN-GP:
 
