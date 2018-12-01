@@ -68,5 +68,5 @@ If you use this code for your research, please cite this paper:
     @inproceedings{tschannen2018deep,
         Author = {Tschannen, Michael and Agustsson, Eirikur and Lucic, Mario},
         Title = {Deep Generative Models for Distribution-Preserving Lossy Compression},
-        Booktitle = {Advances in Neural Information Processing Systems (NIPS)},
+        Booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
         Year = {2018}}
