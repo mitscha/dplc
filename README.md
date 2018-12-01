@@ -4,7 +4,7 @@
   <img src='figs/visuals.jpeg' width='800'/>
 </p>
 
-### [[Paper]](https://arxiv.org/abs/1805.11057) [[Citation]](#citation)
+### [[Paper]](https://arxiv.org/abs/1805.11057) [[Citation]](#citation) [[Poster]](https://github.com/mitscha/dplc/blob/master/figs/poster.pdf)
 
 PyTorch implementation of **Deep Generative Models for Distribution-Preserving Lossy Compression** (NIPS 2018), a framework that unifies generative models and lossy compression. The resulting models behave like generative models at zero bitrate, almost perfectly reconstruct the training data at high enough bitrate, and smoothly interpolate between generation and reconstruction at intermediate bitrates (cf. the figure above, the numbers indicate the rate in bits per pixel).
 
